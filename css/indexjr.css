@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+雅凡推荐：高54+20+270+20+160+20+270=814
+
+
+*/
+@media only screen and (max-width: 1200px) {
+
+header { width: 1000px; overflow:hidden; }
+header ul{ top:10px; }
+
+#introduce { width: 1000px; overflow:hidden; }
+#introduce .pic:nth-child(2){width:496px; height:270px; margin:20px 8px 0 0; }
+#introduce .pic:nth-child(3){width:496px; height:270px; margin-top:20px;}
+#introduce .pic:nth-child(4){ width:243px; height:160px; margin:20px 8px 0 0;}
+#introduce .pic:nth-child(5){ width:243px; height:160px; margin:20px 8px 0 0;}
+#introduce .pic:nth-child(6){ width:243px; height:160px; margin:20px 8px 0 0;}
+#introduce .pic:nth-child(7){ width:243px; height:160px; margin-top:20px;}
+#introduce .pic:nth-child(8){ width:496px; height:270px; margin:20px 8px 0 0;}
+#introduce .pic:nth-child(9){ width:243px; height:270px; margin:20px 8px 0 0;}
+#introduce .pic:nth-child(10){ width:243px; height:270px; margin-top:20px;}
+
+
+
+#newhouse {  width: 1000px; overflow:hidden; }
+.part{ width:1000px;}
+#newhouse .pic-list{ margin:10px 35px 0 0;}
+#newhouse .part .pic-list:nth-child(5){ margin:10px 0 0 0;}
+#newhouse .part .pic-list:nth-child(6){ display:none;}
+.border{ margin:10px 15px 0 0;}
+#newhouse .text{ width:210px;}
+#newhouse .text span{ width:210px;}
+
+#oldhouse {  width: 1000px; overflow:hidden; }
+#text-list{ margin-right:30px;}
+#oldhouse .piclist{ margin:0 35px 10px 0;}
+#oldhouse .piclist:nth-child(5){ margin:0 0 10px 0;}
+#oldhouse .piclist:nth-child(6){ margin:0 35px 10px 0;}
+#oldhouse .piclist:nth-child(8){ margin:0 0 10px 0;}
+
+#oldhouse .piclist:nth-child(9){ display:none;}
+#oldhouse .piclist:nth-child(10){ display:none;}
+
+#select {  width: 1000px; overflow:hidden;}
+#select .pic:nth-child(2){ width:495px; height:390px; margin-right:10px; }
+#select .pic:nth-child(3){ width:495px; height:390px;}
+
+#ranking{ width: 1000px; overflow:hidden;}
+#ranking .text:nth-child(2){ width:360px;}
+#ranking .text:nth-child(2) dd{ width:360px;}
+#ranking .text:nth-child(3){ width:280px;}
+#ranking .text:nth-child(3) dd{ width:280px;}
+#ranking .text:nth-child(4){ width:360px;}
+#ranking .text:nth-child(4) dd{ width:360px;}
+#ranking .text:nth-child(3) dd span{ width:210px;}
+
+footer div{ width:1000px;}
+
+#arrow-right{ right:250px;}
+}

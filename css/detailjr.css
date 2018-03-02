@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 1200px){
+	
+.content-wrap{ width:980px;}
+nav{ width:980px;}
+#wrap{ width:980px;}
+.col:nth-child(1){ margin-right:55px;}
+.col:nth-child(2){ margin-right:55px;}
+.col:nth-child(3){ margin-right:0;}
+.col:nth-child(4){ display:none;}	
+	
+	
+	
+	
+	}

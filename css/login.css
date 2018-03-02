@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bg{ width:100%; height:100%; position:fixed; top:0; left:0; background:url(../images/10-2.jpg) no-repeat; z-index:-1; }
+
+#login{ width:432px; height:560px;  background:#FFF;border-radius:16px; margin:50px auto; position:relative;
+ overflow:hidden; -moz-transition:all 0.5s;-ms-transition:all 0.5s;-o-transition:all 0.5s;-webkit-transition:all 0.5s;
+ transition:all 0.5s;  }
+.lei{-moz-transform:scale(0,0);-ms-transform:scale(0,0);-o-transform:scale(0,0);-webkit-transform:scale(0,0);
+ transform:scale(0,0);}
+.leis{-moz-transform:scale(1,1);-ms-transform:scale(1,1);-o-transform:scale(1,1);-webkit-transform:scale(1,1); transform:scale(1,1);}
+.logo{ width:167px; height:95px; margin:20px auto;}
+.phone,.username,.password,.passwords{ width:340px; height:40px; line-height:40px; padding-left:10px; margin-left:40px;border:1px solid #B7B7B7; color:#999; border-radius:5px;}
+label{ display:block; width:200px; height:24px; line-height:24px; padding-left:60px; color:#F00;}
+#check{ width:340px; height:40px; margin:18px 0 0 44px; position:relative;}
+.check{ display:inline-block; width:14px; height:14px; position:absolute; top:0; left:0; }
+#check span{ width:300px; height:14px; line-height:14px; position:absolute; left:18px; top:0;   }
+button{ width:350px; height:40px; line-height:40px; margin:0 0 0 40px; font-size:20px; text-align:center; border:0; 
+background:#EB5405; color:#FFF; outline:none;}
+button:hover{ cursor:pointer;}
+#login .tit{width:140px; height:24px; line-height:24px; font-size:12px;position:absolute; bottom:12px;color:#999;}
+#login .tit:nth-child(3){ left:12px; text-align:left;  }
+#login .tit:nth-child(4){ right:12px; text-align:right;}
+a{ color:#EB5405;}
+a:hover{color:#EB5405; cursor:pointer; opacity:0.8;}
+
+
+#regist{width:432px; height:370px; background:#FFF;  border-radius:14px; overflow:hidden; position:absolute; left:50%; top:50px;
+ margin-left:-216px;-moz-transition:all 0.5s 0.3s;-ms-transition:all 0.5s 0.3s;-o-transition:all 0.5s 0.3s;-webkit-transition:all 0.5s 0.3s;
+ transition:all 0.5s 0.3s; }
+#regist-wrap{width:432px; height:370px;position:relative;}
+.usernames,.passwordd{ width:340px; height:40px; line-height:40px; padding-left:10px; margin-left:40px;border:1px solid #B7B7B7; 
+color:#999; border-radius:5px;}
+#regist .tit{width:140px; height:24px; line-height:24px; font-size:12px;position:absolute; bottom:22px; right:10px; text-align:right;}
+.tit:nth-of-type(1) a{color:#999;}

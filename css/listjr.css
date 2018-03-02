@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 1200px) {
+
+.content-wrap{ width:1000px; overflow:hidden;}
+nav{ width:1000px; overflow:hidden;}
+
+#house{ width:1000px;}
+#house .piclist{ width:320px; height:380px; margin:20px 20px 0 0;}
+#house .piclist .tit{width:320px; }
+#house .piclist .pic{ width:320px; height:320px;}
+
+#job{ width:1000px; overflow:hidden;}
+#job .piclist{ margin:20px 65px 0 0;}
+#job .piclist:nth-child(4){ margin:20px 0 0 0;}
+#job .piclist:nth-child(5){ display:none;}
+
+#case{ width:1000px; overflow:hidden;}
+#case .piclist{ width:320px; margin:20px 20px 0 0;}
+#case .piclist .pic{ width:320px; }
+#case .piclist .tit{ width:320px;}
+
+#invest{ width:1000px;}
+#invest .pic:nth-child(2){ width:1000px;}
+#invest .pic:nth-child(4),#invest .pic:nth-child(5),#invest .pic:nth-child(6){ width:320px; margin:20px 20px 0 0;}
+#invest .pic:nth-child(6){ margin:20px 0 0 0;}
+footer div{ width:1000px;}
+
+#first-wrap{ display:none;}
+#second-wrap{ display:none;}
+#third-wrap{ display:none;}
+#fourth-wrap{ display:none;}
+
+.view{ width:1000px; overflow:hidden;}
+}
